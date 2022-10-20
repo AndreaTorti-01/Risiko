@@ -9,10 +9,9 @@ public class Region {
   private Player propertyOf;
   private String name;
 
-  public Region(String name, Region... adjRegions){
+  public Region(String name){
     this.propertyOf = null;
     this.name = name;
-    for (Region r : adjRegions) this.adjRegions.add(r);
   }
 
   public Player getPropertyOf() {
