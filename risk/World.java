@@ -1,24 +1,30 @@
 package risk;
+
 import java.util.*;
-import org.json.JSONArray;
-import org.json.JSONObject;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 
 public class World {
-  List<Region> regions = new ArrayList<Region>();
-  public World(){
-    try {
-      String myFile = Files.readString(Paths.get("json/Regions.json"));
-      JSONArray myJSON = new JSONArray(myFile);
-      JSONObject myJSON2 = myJSON.getJSONObject(0);
-      //regions.add(new Region();
-      System.out.println(myJSON2.getString("name"));
-    } catch (Exception e) {};
-    
-  }
+    private List<Region> regions;
 
-  public void Print(){
-    System.out.println(regions.get(0).getName());
-  }
+    public World() throws Exception {
+        regions = Utils.getRegionsList();
+        for (Region r : regions) {
+            List<Region> adjRegions = new ArrayList<Region>();
+            for (String s : Utils.getRegionAdjStringList(r)) {
+                adjRegions.add(this.getRegion(s));
+            }
+            r.setAdjRegions(adjRegions);
+        }
+    }
+
+    public Region getRegion(String name) throws Exception {
+        for (Region r : regions)
+            if (r.getName().equals(name))
+                return r;
+        throw new Exception("region not present");
+    }
+
+    public List<Region> getRegions() {
+        return regions;
+    }
+
 }

@@ -1,302 +1,174 @@
 [
   {
     "name": "alaska",
-    "adjRegions":
-    [
-      
+    "adjRegions": [
+      "northwest-territory",
+      "alberta",
+      "kamchatka"
     ]
-  },
-  {
-  "adjRegions":
-  [
-
-  ]
   },
   {
     "name": "northwest-territory",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "alberta",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "ontario",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "quebec",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "greenland",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
-    "name": "western-united-states" ,
-    "adjRegions":
-    [
-
-    ]
+    "name": "western-united-states",
+    "adjRegions": []
   },
   {
     "name": "eastern-united-states",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "central-america",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "venezuela",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "brazil",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "peru",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "argentina",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "iceland",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "great-britain",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "scandinavia",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "ukraine",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "northern-europe",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "southern-europe",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "western-europe",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "north-africa",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "egypt",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "east-africa",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "congo",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "south-africa",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "madagascar",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "ural",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "siberia",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "yakutsk",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "kamchatka",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "irkutsk",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "mongolia",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "japan",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "afganistan",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "china",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "middle-east",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "india",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "siam",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "indonesia",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "new-guinea",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "western-australia",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   },
   {
     "name": "eastern-australia",
-    "adjRegions":
-    [
-
-    ]
+    "adjRegions": []
   }
 ]
