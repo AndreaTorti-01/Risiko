@@ -1,15 +1,17 @@
 package risk;
 
 import java.util.*;
+import java.nio.file.Path;
 
 public class World {
     private List<Region> regions;
 
-    public World() throws Exception {
-        regions = Utils.getRegionsList();
+    public World(String folder) throws Exception {
+        Path path = Path.of("risk/" + folder + "/Regions.json");
+        regions = Utils.getRegionsList(path);
         for (Region r : regions) {
             List<Region> adjRegions = new ArrayList<Region>();
-            for (String s : Utils.getRegionAdjStringList(r)) {
+            for (String s : Utils.getRegionAdjStringList(r, path)) {
                 adjRegions.add(this.getRegion(s));
             }
             r.setAdjRegions(adjRegions);
